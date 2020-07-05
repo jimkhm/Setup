@@ -5,6 +5,11 @@
       <h1 class="title">
         simple-nuxt-application
       </h1>
+      <div>
+        <a href="/login">ログインページへ</a>
+        <br>
+        <nuxt-link to="/login">Nuxt Link</nuxt-link>
+      </div>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
