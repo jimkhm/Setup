@@ -1,13 +1,35 @@
 <template>
-  <Section class="container">
-    <a href="/users">Users</a>
-    <p></p>
-    <br/>
+  <div class="container">
     <div>
-      <nuxt-link to="users">nuxt-link</nuxt-link>
+      <logo />
+      <h1 class="title">
+        simple-nuxt-application
+      </h1>
+      <div>
+        <a href="/login">ログインページへ</a>
+        <br>
+        <nuxt-link to="/login">Nuxt Link</nuxt-link>
+      </div>
+      <div class="links">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Documentation
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
+        </a>
+      </div>
     </div>
-  </Section> 
-  
+  </div>
 </template>
 
 <script>
